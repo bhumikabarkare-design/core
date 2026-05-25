@@ -17,4 +17,4 @@ def login(request):
     
 
 def bhumi(request):
-    return HttpResponse("p & B")
+    return HttpResponse("hii")
