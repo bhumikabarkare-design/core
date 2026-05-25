@@ -15,3 +15,6 @@ def contact(request):
 def login(request):
     return HttpResponse("This is the login page.")
     
+
+def bhumi(request):
+    return HttpResponse("p & B")
