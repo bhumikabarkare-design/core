@@ -11,3 +11,7 @@ def about(request):
 
 def contact(request):
     return HttpResponse("This is the contact page.")
+
+def login(request):
+    return HttpResponse("This is the login page.")
+    
